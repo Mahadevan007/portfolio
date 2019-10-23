@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6dcc2261.chunk.css",
+    "main.js": "/portfolio/static/js/main.ab088fee.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ab088fee.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.e92c632a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e92c632a.js.map",
+    "static/css/2.7e9880b6.chunk.css": "/portfolio/static/css/2.7e9880b6.chunk.css",
+    "static/js/2.a27ce542.chunk.js": "/portfolio/static/js/2.a27ce542.chunk.js",
+    "static/js/2.a27ce542.chunk.js.map": "/portfolio/static/js/2.a27ce542.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.028b01d4dd11bfeaf821bdde45a68fac.js": "/portfolio/precache-manifest.028b01d4dd11bfeaf821bdde45a68fac.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.7e9880b6.chunk.css.map": "/portfolio/static/css/2.7e9880b6.chunk.css.map",
+    "static/css/main.6dcc2261.chunk.css.map": "/portfolio/static/css/main.6dcc2261.chunk.css.map",
+    "static/media/all.css": "/portfolio/static/media/fa-solid-900.c2801fb4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e92c632a.js",
+    "static/css/2.7e9880b6.chunk.css",
+    "static/js/2.a27ce542.chunk.js",
+    "static/css/main.6dcc2261.chunk.css",
+    "static/js/main.ab088fee.chunk.js"
+  ]
+}
