@@ -1,0 +1,96 @@
+.blog {
+  background: #6abde9;
+  min-height: 100vh;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border: none;
+}
+
+.blog-img-div img {
+  flex-shrink: 0;
+  min-width: 30%;
+  min-height: 30%;
+  width: 118px;
+  height: 100%;
+  margin-top: -1px;
+  border-radius: 0%;
+}
+
+.blog-card {
+  margin-top: 20px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.blog-card:hover {
+  background: gray;
+}
+
+@media (min-height: 1280px) {
+  .blog {
+    padding-bottom: 100%;
+  }
+}
+
+@media (min-height: 640px) {
+  .blog {
+    padding-bottom: 2px;
+  }
+}
+
+@media (min-height: 732px) {
+  .blog {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-height: 960px) {
+  .blog {
+    padding-bottom: 287px;
+  }
+}
+
+@media (min-height: 731px) {
+  .blog {
+    padding-bottom: 44px;
+  }
+}
+
+@media (min-height: 823px) {
+  .blog {
+    padding-bottom: 132px;
+  }
+}
+
+@media (min-height: 812px) {
+  .blog {
+    padding-bottom: 132px;
+  }
+}
+
+@media (min-height: 1024px) {
+  .blog {
+    padding-bottom: 400px;
+  }
+}
+
+@media (min-height: 1366px) {
+  .blog {
+    padding-bottom: 100%;
+  }
+}
+
+@media (min-width: 300px) {
+  .blog {
+    padding-bottom: 190%;
+  }
+}
+
+@media (min-height: 440px) {
+  .blog {
+    padding-bottom: 250px;
+  }
+}

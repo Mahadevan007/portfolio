@@ -1,0 +1,64 @@
+/* .header {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.header .options {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header .option {
+  padding: 10px 15px;
+  color: gray;
+}
+
+.header .option:hover {
+  padding: 10px 15px;
+  color: black;
+  text-decoration: none;
+} 
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,800&display=swap");
+
+body {
+  font-family: "Catamaran", sans-serif;
+}
+
+/* .collapse-css-transition {
+  transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+} */
+
+.navbar {
+  background: #5c5b57 !important;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.options {
+  padding: 10px 15px;
+  color: white;
+}
+
+.options:hover {
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none !important;
+}
