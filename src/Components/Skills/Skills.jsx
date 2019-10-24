@@ -39,6 +39,13 @@ const Skills = () => {
                 </div>
               </li>
               <li className="skill-item">
+                <h3>AngularJS</h3>
+                <div className="bar">
+                  <span className="angularjs"></span>
+                  <div className="percent">70%</div>
+                </div>
+              </li>
+              <li className="skill-item">
                 <h3>NodeJS</h3>
                 <div className="bar">
                   <span className="nodejs"></span>
@@ -57,6 +64,13 @@ const Skills = () => {
                 <div className="bar">
                   <span className="c"></span>
                   <div className="percent">80%</div>
+                </div>
+              </li>
+              <li className="skill-item">
+                <h3>Python</h3>
+                <div className="bar">
+                  <span className="python"></span>
+                  <div className="percent">65%</div>
                 </div>
               </li>
               <li className="skill-item">
