@@ -9,29 +9,6 @@ export default class Projects extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-md-offset-2">
-              <Animated animationIn="bounceIn" isVisible={true}>
-                <a
-                  href="https://drive.google.com/file/d/1Fb4JxDY2RzZPg4nBspzv1zn7RtsCBKLg/view?usp=sharing"
-                  className="project-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="card project-card" style={{ width: "18rem" }}>
-                    <div className="card-body">
-                      <h5 className="card-title">
-                        Transmission Lines Surveillance Device
-                      </h5>
-                      <p className="card-text">
-                        This is an IOT project where a device is used to
-                        traverse through the line from the start to the end and
-                        checks the line for defects or irregularities
-                      </p>
-                    </div>
-                  </div>
-                </a>
-              </Animated>
-            </div>
-            <div className="col-md-4 col-md-offset-2">
               <Animated animationIn="bounceIn">
                 <a
                   href="http://thor-chat-app.herokuapp.com/"
@@ -57,6 +34,62 @@ export default class Projects extends React.Component {
                       >
                         <i class="fab fa-github"></i>
                       </a>
+                    </div>
+                  </div>
+                </a>
+              </Animated>
+            </div>
+            <div className="col-md-4 col-md-offset-2">
+              <Animated animationIn="bounceIn">
+                <a
+                  href="https://mahadevan007.github.io/lights-out/"
+                  classname="chat-project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    className="card project-card chat"
+                    style={{ width: "18rem" }}
+                  >
+                    <div className="card-body">
+                      <h5 className="card-title">Light's Out</h5>
+                      <p className="card-text">
+                        This is a game developed using ReactJS where when a cell
+                        is clicked, the lights in all the four directions and
+                        the cell gets toggled on or off. The player wins once he
+                        switched off all the lights.
+                      </p>
+                      <a
+                        href="https://github.com/Mahadevan007/lights-out"
+                        className="card-link github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </a>
+              </Animated>
+            </div>
+            <div className="col-md-4 col-md-offset-2">
+              <Animated animationIn="bounceIn" isVisible={true}>
+                <a
+                  href="https://drive.google.com/file/d/1Fb4JxDY2RzZPg4nBspzv1zn7RtsCBKLg/view?usp=sharing"
+                  className="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="card project-card" style={{ width: "18rem" }}>
+                    <div className="card-body">
+                      <h5 className="card-title">
+                        Transmission Lines Surveillance Device
+                      </h5>
+                      <p className="card-text">
+                        This is an IOT project where a device is used to
+                        traverse through the line from the start to the end and
+                        checks the line for defects or irregularities
+                      </p>
                     </div>
                   </div>
                 </a>
