@@ -75,6 +75,40 @@ export default class Projects extends React.Component {
             <div className="col-md-4 col-md-offset-2">
               <Animated animationIn="bounceIn" isVisible={true}>
                 <a
+                  href="https://github.com/Mahadevan007/video-stream"
+                  className="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="card project-card" style={{ width: "18rem" }}>
+                    <div className="card-body">
+                      <h5 className="card-title">
+                        Stream Videos Using Youtube API
+                      </h5>
+                      <p className="card-text">
+                        This is a mini application developed using reactjs where
+                        when the user searches for a video, videos related to
+                        that search term is viewed and the user can play the
+                        videos
+                      </p>
+                      <a
+                        href="https://github.com/Mahadevan007/video-stream"
+                        className="card-link github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </a>
+              </Animated>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-4 col-md-offset-2">
+              <Animated animationIn="bounceIn" isVisible={true}>
+                <a
                   href="https://drive.google.com/file/d/1Fb4JxDY2RzZPg4nBspzv1zn7RtsCBKLg/view?usp=sharing"
                   className="project-link"
                   target="_blank"
