@@ -42,6 +42,39 @@ export default class Projects extends React.Component {
             <div className="col-md-4 col-md-offset-2">
               <Animated animationIn="bounceIn">
                 <a
+                  href="https://thor-connector.herokuapp.com/"
+                  classname="mern-project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    className="card project-card mern"
+                    style={{ width: "18rem" }}
+                  >
+                    <div className="card-body">
+                      <h5 className="card-title">
+                        Connector MERN stack project
+                      </h5>
+                      <p className="card-text">
+                        This is a social network like application for developers
+                        developed using MERN stack
+                      </p>
+                      <a
+                        href="https://github.com/Mahadevan007/connector-mern-stack-app"
+                        className="card-link github"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </a>
+              </Animated>
+            </div>
+            <div className="col-md-4 col-md-offset-2">
+              <Animated animationIn="bounceIn">
+                <a
                   href="https://mahadevan007.github.io/lights-out/"
                   classname="chat-project-link"
                   target="_blank"
@@ -67,6 +100,31 @@ export default class Projects extends React.Component {
                       >
                         <i class="fab fa-github"></i>
                       </a>
+                    </div>
+                  </div>
+                </a>
+              </Animated>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-4 col-md-offset-2">
+              <Animated animationIn="bounceIn" isVisible={true}>
+                <a
+                  href="https://drive.google.com/file/d/1Fb4JxDY2RzZPg4nBspzv1zn7RtsCBKLg/view?usp=sharing"
+                  className="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="card project-card" style={{ width: "18rem" }}>
+                    <div className="card-body">
+                      <h5 className="card-title">
+                        Transmission Lines Surveillance Device
+                      </h5>
+                      <p className="card-text">
+                        This is an IOT project where a device is used to
+                        traverse through the line from the start to the end and
+                        checks the line for defects or irregularities
+                      </p>
                     </div>
                   </div>
                 </a>
@@ -99,31 +157,6 @@ export default class Projects extends React.Component {
                       >
                         <i class="fab fa-github"></i>
                       </a>
-                    </div>
-                  </div>
-                </a>
-              </Animated>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-4 col-md-offset-2">
-              <Animated animationIn="bounceIn" isVisible={true}>
-                <a
-                  href="https://drive.google.com/file/d/1Fb4JxDY2RzZPg4nBspzv1zn7RtsCBKLg/view?usp=sharing"
-                  className="project-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="card project-card" style={{ width: "18rem" }}>
-                    <div className="card-body">
-                      <h5 className="card-title">
-                        Transmission Lines Surveillance Device
-                      </h5>
-                      <p className="card-text">
-                        This is an IOT project where a device is used to
-                        traverse through the line from the start to the end and
-                        checks the line for defects or irregularities
-                      </p>
                     </div>
                   </div>
                 </a>
