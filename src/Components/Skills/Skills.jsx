@@ -39,7 +39,7 @@ const Skills = () => {
                 </div>
               </li>
               <li className="skill-item">
-                <h3>AngularJS</h3>
+                <h3>Angular</h3>
                 <div className="bar">
                   <span className="angularjs"></span>
                   <div className="percent">70%</div>
