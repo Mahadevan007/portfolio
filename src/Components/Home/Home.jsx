@@ -73,7 +73,7 @@ const Home = () => {
               </Animated>
               <Animated>
                 <div className="download-resume">
-                  <a href="https://drive.google.com/uc?export=download&id=0B69RBpC36mJ-RGJyV1JRc3VxRHIybUFTMjRkYWhyUVVWeGNV">
+                  <a href="https://drive.google.com/uc?export=download&id=1Y5qzHTZoyWTDnB78N-JLeiaYbg4KC0IK">
                     <button className="btn btn-md download-button">
                       <h5>Download Resume</h5>
                     </button>
