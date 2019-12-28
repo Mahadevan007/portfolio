@@ -95,7 +95,7 @@ const Home = () => {
                 <span> ReactJS</span>, <span> NodeJS</span>,
                 <span> MongoDB </span>
                 and
-                <span> AngularJS</span> trained by <span>Zen Class </span> @
+                <span> Angular</span> trained by <span>Zen Class </span> @
                 <span> Guvi Geek Technologies</span> ,<span>IITMRP</span>
                 <br />
                 <br />
