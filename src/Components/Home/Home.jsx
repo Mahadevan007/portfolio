@@ -91,7 +91,7 @@ const Home = () => {
               <p className="about-content">
                 I'm a passionate <span>full stack developer</span> focusing on
                 writing clean, elegant and efficient code. My expertise covers
-                <span> HTML&css</span>, <span> Javascript</span>,
+                <span> HTML & CSS</span>, <span> Javascript</span>,
                 <span> ReactJS</span>, <span> NodeJS</span>,
                 <span> MongoDB </span>
                 and
