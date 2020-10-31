@@ -11,7 +11,7 @@ const Home = () => {
             <div className="col-md-12">
               <div className="img-div">
                 <img
-                  src="https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/27540171_1750052781731648_8876058410636450317_n.jpg?_nc_cat=108&_nc_oc=AQlcgmRCegs8dJdaIB3t3k094NbxeWeTLeSmzsvEKB5swGCvvvQxI9LqQMuDEle0cmY&_nc_ht=scontent.fmaa1-2.fna&oh=4744f4e98f9fc57f4e54f358875788a9&oe=5E6504A4"
+                  src="https://i.ibb.co/G0Yy9w9/IMG-1394.jpg"
                   alt=""
                 />
               </div>
